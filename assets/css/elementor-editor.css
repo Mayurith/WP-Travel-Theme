@@ -1,0 +1,14 @@
+.eicon-wpt-hero-banner {
+    position: relative;
+}
+
+.eicon-wpt-hero-banner::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../icons/hero-banner-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
