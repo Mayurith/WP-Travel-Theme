@@ -1,6 +1,6 @@
-<header class="w-full bg-white shadow-sm border-b border-gray-100">
+<header class="w-full bg-sky-500 relative z-999 border-b border-white/20">
 
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
+    <div class="mx-auto flex max-w-8xl items-center justify-between px-4 py-4 lg:px-8">
 
         <!-- Logo -->
         <div class="site-logo flex items-center">
@@ -15,7 +15,7 @@
 
                 <a
                     href="<?php echo esc_url( home_url('/') ); ?>"
-                    class="text-2xl font-bold text-gray-900"
+                    class="text-2xl font-bold text-white"
                 >
                     <?php bloginfo('name'); ?>
                 </a>
@@ -32,7 +32,7 @@
             <?php
             wp_nav_menu([
                 'theme_location' => 'primary_menu',
-                'menu_class'     => 'flex items-center gap-8 text-sm font-medium text-gray-700',
+                'menu_class'     => 'flex items-center gap-8 text-sm font-medium text-white',
                 'container'      => false,
             ]);
             ?>
@@ -44,7 +44,7 @@
 
             <a
                 href="/contact"
-                class="rounded-full bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-700"
+                class="rounded-full btn-primary px-6 py-3 text-sm font-semibold text-secondary transition hover:bg-[#6da800]"
             >
                 Book Now
             </a>
