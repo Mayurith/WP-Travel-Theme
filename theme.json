@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+
+  "settings": {
+
+    "appearanceTools": true,
+
+    "color": {
+
+      "palette": [
+
+        {
+          "slug": "primary",
+          "name": "Primary",
+          "color": "#102039"
+        },
+
+        {
+          "slug": "secondary",
+          "name": "Secondary",
+          "color": "#3fd0d4"
+        },
+
+        {
+          "slug": "accent",
+          "name": "Accent",
+          "color": "#3fd0d4"
+        },
+
+        {
+          "slug": "dark",
+          "name": "Dark",
+          "color": "#0F172A"
+        },
+
+        {
+          "slug": "gray",
+          "name": "Gray",
+          "color": "#64748B"
+        },
+
+        {
+          "slug": "light",
+          "name": "Light",
+          "color": "#F8FAFC"
+        }
+      ]
+    },
+
+    "spacing": {
+
+      "spacingScale": {
+        "steps": 7
+      }
+    },
+
+    "typography": {
+
+      "fontFamilies": [
+
+        {
+          "fontFamily": "Inter, sans-serif",
+          "slug": "inter",
+          "name": "Inter"
+        }
+      ]
+    },
+
+    "layout": {
+      "contentSize": "1280px",
+      "wideSize": "1440px"
+    }
+
+  },
+    "styles": {
+    
+        "color": {
+        "text": "var(--wp--preset--color--primary)",
+        "background": "var(--wp--preset--color--light)"
+        },
+    
+        "typography": {
+        "fontFamily": "var(--wp--preset--font-family--inter)"
+        }
+    }
+}
